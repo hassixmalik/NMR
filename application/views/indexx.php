@@ -26,19 +26,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 n2">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="<?php echo base_url('home')?>">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('services')?>">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
+                <a class="nav-link" href="<?php echo base_url('')?>">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact us</a>
+                <a class="nav-link" href="<?php echo base_url('contact')?>">Contact us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About us</a>
+                <a class="nav-link" href="<?php echo base_url('about')?>">About us</a>
               </li>
             </ul>
           </div>
@@ -50,7 +50,7 @@
     <div class="container home">
       <div class="row">
         <div class="col-md-12 text-center">
-          <img src="logo-no-bg.png" style="width: 100px; margin-top: 10px;" alt="">
+          <img src="assets/images/logo-no-bg.png" style="width: 100px; margin-top: 10px;" alt="">
         </div>
       </div>
         <div class="row">
