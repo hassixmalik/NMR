@@ -131,3 +131,8 @@ html {
   .col-md-4.col-xs-12{
     margin-bottom: 18px;
   }
+
+  .container.aboutusinhome{
+    background:#f6f6f6;
+    padding: 30px;
+  }
